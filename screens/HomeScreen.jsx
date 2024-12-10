@@ -24,7 +24,7 @@ export default function HomeScreen() {
         </TouchableOpacity>
       </View>
       <View style={[{flexDirection:'row', justifyContent:'center', marginTop:10}]}>
-        <Text style={{color:'white'}}>Already have an account?</Text>
+        <Text style={{color:'white'}}>Already Have an account?</Text>
         <TouchableOpacity onPress={()=> navigation.navigate('Login')}>
         <Text style={{color:'#FCC737'}}> Login</Text>
         </TouchableOpacity>
